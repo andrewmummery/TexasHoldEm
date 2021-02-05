@@ -23,10 +23,15 @@ each time you load a game, and thats boring.
 Run the function LetsPlayCards().
 
 This can either be done on the terminal by running
+
 $ python3 MummeryPoker
+
 or with the following steps
+
 $ python3 
+
 > import MummeryPoker
+
 > MummeryPoker.LetsPlayCards()
 
 (Note: '$' and '>' should not be typed, they denote
