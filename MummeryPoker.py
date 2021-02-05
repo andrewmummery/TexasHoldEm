@@ -6,7 +6,7 @@ Andrew Mummery,
 Oxford University Astrophysics,
 andrew.mummery.software@gmail.com 
 
-git repo: https://github.com/andrewmummery/MummeryPoker
+git repo: https://github.com/andrewmummery/TexasHoldEm
 
 ##################################################
 ############ READ BELOW BEFORE USING #############
