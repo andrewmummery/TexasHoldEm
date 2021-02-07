@@ -145,6 +145,7 @@ from email.mime.text import MIMEText
 ###### on your machine. For example, on my machine it is the following:
 ###### Dropbox_file_root = '/Users/andrewmummery/Desktop/Dropbox/Poker/'
 Dropbox_file_root = '/Path/To/Your/Dropbox/Folder/'
+Dropbox_file_root = '/Users/andrewmummery/Desktop/Dropbox/Poker/'## ANDY: Delete before uploading
 
 branding = """
 ____  ____  ___  ___   ____  ____   ____  ____    ________  ______   ___   ___    __    _____  
@@ -196,6 +197,12 @@ contract_money_rules = """
                       b. The player who comes second last pays £5 to the beer kitty.
                       c. The player who comes second pays £2 to the beer kitty.
                       d. The player who comes first pays £1 to the beer kitty.
+"""
+
+contract_money_rules = """
+                      a. The player who comes last pays £7 to the beer kitty.
+                      b. The player who comes second pays £4 to the beer kitty.
+                      d. The player who comes first pays £2 to the beer kitty.
 """
 
 
@@ -340,7 +347,7 @@ class Score(object):
                 flag=False
                 break
             elif card.rank!=current_rank:
-                if card.rank == 5 and current_rank == 14:## Ace, 5, 4, 3, 2 is a valid straight. 
+                if card.rank == 5 and current_rank == 13:## Ace, 5, 4, 3, 2 is a valid straight. 
                     current_rank = 4
                 else:
                     flag=False
@@ -445,7 +452,7 @@ class Score(object):
         current_rank=sortedHand[0].rank                        
         for card in sortedHand:
             if card.rank!=current_rank:
-                if card.rank == 5 and current_rank == 14:## Ace, 5, 4, 3, 2 is a valid straight. 
+                if card.rank == 5 and current_rank == 13:## Ace, 5, 4, 3, 2 is a valid straight. 
                     current_rank = 4
                 else:
                     flag=False
