@@ -13,7 +13,7 @@ for all of the players.
 Change the line:
 Dropbox_file_root = '/Path/to/your/Dropbox/Folder/'
 to the correct path to the Dropbox folder on your 
-machine.  (Found on ~ line 150 of this file.) 
+machine.  (Found on ~ line 150 of the Python file.) 
 Note: technically not strictly required, as the 
 program will prompt you for the file path if no 
 modification is done. But that will require typing
@@ -80,10 +80,10 @@ both tied hands and multiple pots (which result when one
 or more players are All in).
 
 The hand ranking algorithm can be found within the class 
-Score() on line ~ 315 of this file. 
+Score() on line ~ 315 of the Python file. 
 
 The Showdown algorithm can be found in the showdown() 
-function within the Poker() class. (Line ~ 1500.)
+function within the Poker() class. (Line ~ 1500 of Python file.)
 
 ### 4. The 'Playing Contract':
 A problem with playing on Zoom is players (once they've lost)
@@ -95,7 +95,7 @@ then the game will not begin until all players have 'signed'
 their contract. This involves modifying the final line of the 
 file CONTRACT.txt in their dropbox folders. The text of the 
 contract can be modified by changing the 'contract_text' 
-variables near the top of this file (lines ~ 190). 
+variables near the top of this file (lines ~ 190, Python file). 
 
 ## Additional Options 
 ### 1. Blind structure 
