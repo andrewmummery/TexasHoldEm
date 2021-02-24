@@ -145,7 +145,6 @@ from email.mime.text import MIMEText
 ###### on your machine. For example, on my machine it is the following:
 ###### Dropbox_file_root = '/Users/andrewmummery/Desktop/Dropbox/Poker/'
 Dropbox_file_root = '/Path/To/Your/Dropbox/Folder/'
-Dropbox_file_root = '/Users/andrewmummery/Desktop/Dropbox/Poker/'## ANDY: Delete before uploading
 
 branding = """
 ____  ____  ___  ___   ____  ____   ____  ____    ________  ______   ___   ___    __    _____  
