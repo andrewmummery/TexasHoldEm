@@ -145,6 +145,7 @@ from email.mime.text import MIMEText
 ###### on your machine. For example, on my machine it is the following:
 ###### Dropbox_file_root = '/Users/andrewmummery/Desktop/Dropbox/Poker/'
 Dropbox_file_root = '/Path/To/Your/Dropbox/Folder/'
+Dropbox_file_root = '/Users/andrewmummery/Desktop/Dropbox/Poker/'## ANDY: Delete before uploading
 
 branding = """
 ____  ____  ___  ___   ____  ____   ____  ____    ________  ______   ___   ___    __    _____  
@@ -553,8 +554,8 @@ class Score(object):
                 else:
                     non_pair_cards.append(cardrank)
             for i in range(3):
-                total_point += non_pair_cards[i]**(3-i)
-            total_point += pair_cards[0]**3
+                total_point += non_pair_cards[i] * 14**(3-i)
+            total_point += pair_cards[0]*14**4
             self.total_point = total_point  
         else:
             self.high_card(sortedHand)
